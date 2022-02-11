@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f2709c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+p{
+    font-size: 12px;
+}
+
+li {
+    font-size: 12px;
+}
+
+li i{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+li span{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.container__cv{
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* background-color: rgb(248, 248, 248); */
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #eef1f5 80%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.name{
+    width: 50%;
+    margin-left: 5px;
+}
+
+.application{
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.explication{
+    width: 65%;
+    margin-bottom: 19px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.image{
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 10px;
+    align-self: end;
+}
+
+.image img{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.item{
+    width: 47%;
+    margin: 5px;
+}
+
+.subTitle{
+    font-size: 20px;
+    color: rgb(26, 1, 84);
+    font-weight: bold;
+    border-bottom: black solid 1px;
+}
+
+.skills{
+    position: absolute;
+    align-self: end;
+    top: 218px;
+}
+
+.skills li {
+    font-size: 15px;
+}
+
+.personal__information ul{
+    list-style: none;
+}
+
+.work__experience{
+    position: absolute;
+    align-self: end;
+    top: 425px;
+}
+
+.hobbies{
+    position: absolute;
+    align-self: end;
+    top: 770px;
+}
+
+.different{
+    font-weight: bolder;
+    font-size: 15px;
+}
